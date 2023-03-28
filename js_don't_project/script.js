@@ -16,3 +16,6 @@ let car = { brand : "BMW" }; //object
 console.log(Number(age), Number(drink), Number(elephantFa), Number(bigint), Number(number), Number(day), Number(car));
 console.log(String(age), String(drink), String(elephantFa), String(bigint), String(number), String(day), String(car));
 console.log(Boolean(age), Boolean(drink), Boolean(elephantFa), Boolean(bigint), Boolean(number), Boolean(day),Boolean(car));
+
+
+
