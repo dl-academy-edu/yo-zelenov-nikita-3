@@ -1,9 +1,9 @@
 {
-  "name": "F-115-2",
+  "name": "dl-academy-markup-template",
   "version": "1.0.0",
   "private": true,
-  "description": "Study",
-  "author": "Zelenov Nikita",
+  "description": "Markup template",
+  "author": "DirectLine Development",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
