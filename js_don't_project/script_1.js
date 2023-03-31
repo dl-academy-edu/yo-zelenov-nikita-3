@@ -1,17 +1,21 @@
+// Типы данных: number, string, boolean, bigint, null, undefined, object, symbol
 
-//Написать игру Угадай число
+let age = 7; // number 
+let drink = "water"; // string
+let elephantFa = true; // boolean
+let bigint = 34253453n; // bigint 
+let number = null; // null 
+let day = undefined; // undefined
+let car = { brand : "BMW" }; //object
+//let id = Symbol ("id"); // symbol
+//let user = {
+  //  name : "Nikita",
+ //   [id] : 777
+//};
 
-let secretNumber = Math.floor(1 + Math.random() * 10);
-let num;
+console.log(Number(age), Number(drink), Number(elephantFa), Number(bigint), Number(number), Number(day), Number(car));
+console.log(String(age), String(drink), String(elephantFa), String(bigint), String(number), String(day), String(car));
+console.log(Boolean(age), Boolean(drink), Boolean(elephantFa), Boolean(bigint), Boolean(number), Boolean(day),Boolean(car));
 
-do {
-  num = prompt("Угадайте число от 1 до 100");
 
-  if (num < secretNumber) {
-    alert("Загаданное число больше");
-  } else if (num > secretNumber) {
-    alert("Загаданное число меньше");
-  }
-} while (num != secretNumber);
 
-alert("Вы угадали число!");
